@@ -12,9 +12,9 @@ export const LARK_VERIFICATION_TOKEN = (
 export const LARK_ENCRYPT_KEY = (process.env.LARK_APP_SECRET ?? "")!.split(",");
 
 export const PROJECT_DOCX =
-  "https://bcew4xxy7a.feishu.cn/docx/UpJkdVTdao7IwUx46bRcDiahn2D";
+  "https://github.com/guMcrey";
 export const ICON_DOCX =
-  "https://ituhdo1hkk.feishu.cn/docx/Lw0xdER0qoExN3xgP7Fc9AItnob";
+  "https://github.com/guMcrey";
 
-export const SITE_TITLE = "自定义飞书链接预览";
-export const EDITOR_TITLE = "自定义飞书链接预览编辑器";
+export const SITE_TITLE = "Advance 自定义飞书链接预览";
+export const EDITOR_TITLE = "Advance 自定义飞书链接预览编辑器";
