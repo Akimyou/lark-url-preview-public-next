@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run patch && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "scan": "i18next",
     "test": "jest",
-    "patch": "node patch-hbs-helper.js"
+    "postinstall": "node patch-hbs-helper.js"
   },
   "dependencies": {
     "@douyinfe/semi-icons": "^2.63.1",
